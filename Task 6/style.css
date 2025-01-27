@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    margin: 3%;
+    padding: 2%;
+    width: 30%;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+button.one{
+    background-color: blueviolet;
+}
+
+button.two{
+    background-color: red;
+}
+
+button.three{
+    background-color: darkblue;
+}
+
+button.four{
+    background-color: seagreen;
+}
+
+button.five{
+    background-color: royalblue;
+}
