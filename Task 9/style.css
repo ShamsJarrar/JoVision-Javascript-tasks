@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: crimson;
+    color:aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+button:hover{
+    text-decoration: underline;
+}
