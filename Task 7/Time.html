@@ -1,0 +1,19 @@
+<html>
+    <body style= "display: flex; align-items: center; justify-content: center;">
+        <h2 id = "timer" style = "color: black"></h2>
+        
+        <script>
+            function displayTime(){
+                const date = new Date();
+                const format = {
+                    hour : "2-digit",
+                    minute: "2-digit",
+                    second: "2-digit"
+                }
+                document.getElementById("timer").innerHTML = date.toLocaleTimeString(format);
+            }
+
+            setInterval(displayTime, 1000);
+        </script>
+    </body>
+</html>
